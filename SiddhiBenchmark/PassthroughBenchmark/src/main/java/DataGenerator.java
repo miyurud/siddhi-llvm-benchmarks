@@ -1,7 +1,7 @@
+import java.util.Random;
+
 import org.apache.log4j.Logger;
 import org.wso2.siddhi.core.stream.input.InputHandler;
-
-import java.util.Random;
 
 public class DataGenerator extends Thread {
 

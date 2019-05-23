@@ -1,12 +1,32 @@
-import com.espertech.esper.common.client.*;
+import com.espertech.esper.common.client.EPCompiled;
+import com.espertech.esper.common.client.EventBean;
 import com.espertech.esper.common.client.configuration.Configuration;
-import com.espertech.esper.compiler.client.*;
-import com.espertech.esper.runtime.client.*;
-import java.io.*;
-import java.nio.charset.*;
+import com.espertech.esper.compiler.client.CompilerArguments;
+import com.espertech.esper.compiler.client.EPCompileException;
+import com.espertech.esper.compiler.client.EPCompiler;
+import com.espertech.esper.compiler.client.EPCompilerProvider;
+import com.espertech.esper.runtime.client.EPDeployException;
+import com.espertech.esper.runtime.client.EPDeployment;
+import com.espertech.esper.runtime.client.EPRuntime;
+import com.espertech.esper.runtime.client.EPRuntimeProvider;
+import com.espertech.esper.runtime.client.EPStatement;
+import com.espertech.esper.runtime.client.UpdateListener;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.io.Writer;
+import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
 import java.util.Random;
+
 import org.HdrHistogram.Histogram;
-import org.apache.log4j.*;
+import org.apache.log4j.BasicConfigurator;
+import org.apache.log4j.Logger;
 
 public class Main {
 

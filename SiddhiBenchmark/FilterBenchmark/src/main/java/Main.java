@@ -10,8 +10,8 @@ import org.wso2.siddhi.core.stream.output.StreamCallback;
 public class Main {
 
     private static final Logger log = Logger.getLogger(Main.class);
-    private static String logDir = "./PassthroughBenchmark/results";
-    private static String filteredLogDir = "./PassthroughBenchmark/filtered-results";
+    private static String logDir = "./FilterBenchmark/results";
+    private static String filteredLogDir = "./FilterBenchmark/filtered-results";
     private static final int RECORD_WINDOW = 10000; //This is the number of events to record.
     private static long eventCountTotal = 0;
     private static long eventCount = 0;
@@ -27,9 +27,6 @@ public class Main {
     private static boolean exitFlag = false;
     private static final Histogram histogram1 = new Histogram(2);
     private static final Histogram histogram2 = new Histogram(2);
-    private static long time1 = System.currentTimeMillis();
-    private static long time2 = System.currentTimeMillis();
-    private static long totalTime = 0;
 
     public static void main(String[] args) {
 
@@ -58,7 +55,7 @@ public class Main {
 
         String siddhiApp = "define stream inputStream ( iij_timestamp long, value float);"
                 + "define stream outputStream ( iij_timestamp long, value float);"
-                + "@info(name = 'query1') from inputStream "
+                + "@info(name = 'query1') from inputStream [value < 2.0] "
                 + "select iij_timestamp, value insert into outputStream;";
 
         final SiddhiAppRuntime siddhiAppRuntime = siddhiManager.createSiddhiAppRuntime(siddhiApp);
@@ -72,7 +69,6 @@ public class Main {
             @Override
             public void receive(Event[] events) {
                 for (Event evt : events) {
-                    time1 = System.currentTimeMillis();
                     long currentTime = System.currentTimeMillis();
                     histogram1.recordValue(timeSpent);
                     histogram2.recordValue(timeSpent);
@@ -120,8 +116,6 @@ public class Main {
                     } catch (Exception e) {
                         log.error("Error while consuming event, " + e.getMessage(), e);
                     }
-                    time2 = System.currentTimeMillis();
-                    totalTime += (time2 - time1);
                 }
             }
         });
@@ -135,10 +129,8 @@ public class Main {
         }
 
         log.info("Done the experiment. Exitting the benchmark.");
-        System.out.println(getTime());
 
         preprocessPerformanceData();
-
     }
 
     private static void preprocessPerformanceData() {
@@ -200,9 +192,5 @@ public class Main {
                 }
             }
         }
-    }
-
-    private static long getTime() {
-        return totalTime;
     }
 }

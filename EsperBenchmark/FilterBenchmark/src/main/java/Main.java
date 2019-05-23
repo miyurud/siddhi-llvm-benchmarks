@@ -11,8 +11,8 @@ import org.apache.log4j.*;
 public class Main {
 
     private static final Logger log = Logger.getLogger(Main.class);
-    private static String logDir = "./PassthroughBenchmark/results";
-    private static String filteredLogDir = "./PassthroughBenchmark/filtered-results";
+    private static String logDir = "./FilterBenchmark/results";
+    private static String filteredLogDir = "./FilterBenchmark/filtered-results";
     private static final int RECORD_WINDOW = 10000;
     private static long eventCountTotal = 0;
     private static long eventCount = 0;
@@ -48,7 +48,7 @@ public class Main {
         EPCompiled epCompiled;
 
         try {
-            epCompiled = compiler.compile("@name('my-statement') select data, currentTime from DataGenerator", compilerArguments);
+            epCompiled = compiler.compile("@name('my-statement') select data, currentTime from DataGenerator (data < 2)", compilerArguments);
         } catch (EPCompileException e) {
             throw new RuntimeException(e);
         }

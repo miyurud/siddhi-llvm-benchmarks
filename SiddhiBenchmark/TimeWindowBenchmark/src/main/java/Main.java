@@ -16,7 +16,7 @@ import org.wso2.siddhi.core.stream.output.StreamCallback;
 public class Main {
 
     private static final Logger log = Logger.getLogger(Main.class);
-    private static String logDir = "./FilterBenchmark/results";
+    private static String logDir = "./TimeWindowBenchmark/results";
     private static final int RECORD_WINDOW = 1000000; //This is the number of events to record.
     private static long eventCountTotal = 0;
     private static long eventCount = 0;
@@ -47,7 +47,7 @@ public class Main {
 
             outputFileTimeStamp = System.currentTimeMillis();
             fstream = new OutputStreamWriter(new FileOutputStream(new File(logDir +
-                    "/siddhi-filter-results-" + (outputFileTimeStamp) + ".csv").getAbsoluteFile()),
+                    "/siddhi-timewindow-results-" + (outputFileTimeStamp) + ".csv").getAbsoluteFile()),
                     StandardCharsets.UTF_8);
         } catch (IOException e) {
             log.error("Error while creating statistics output file, " + e.getMessage(), e);
@@ -57,7 +57,7 @@ public class Main {
 
         String siddhiApp = "define stream inputStream ( iij_timestamp long, value float); " +
                 "define stream outputStream ( iij_timestamp long, value float); " +
-                "@info(name = 'query1') from inputStream [value < 2.0] " +
+                "@info(name = 'query1') from inputStream#window.time(5 min) " +
                 "select iij_timestamp, value insert into outputStream;";
 
         final SiddhiAppRuntime siddhiAppRuntime = siddhiManager.createSiddhiAppRuntime(siddhiApp);

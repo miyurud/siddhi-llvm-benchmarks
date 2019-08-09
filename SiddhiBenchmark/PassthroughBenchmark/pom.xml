@@ -5,7 +5,7 @@
     <parent>
         <artifactId>Benchmark</artifactId>
         <groupId>Siddhi</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -29,17 +29,10 @@
             <artifactId>siddhi-query-compiler</artifactId>
             <version>${siddhi.version}</version>
         </dependency>
-
-        <dependency>
-            <groupId>org.hdrhistogram</groupId>
-            <artifactId>HdrHistogram</artifactId>
-            <version>${HdrHistogram.version}</version>
-        </dependency>
     </dependencies>
 
     <properties>
-        <siddhi.version>4.0.0-M20</siddhi.version>
-        <HdrHistogram.version>2.1.11</HdrHistogram.version>
+        <siddhi.version>4.5.11</siddhi.version>
         <maven.shadeplugin.version>2.4.1</maven.shadeplugin.version>
         <mavan.findbugsplugin.exclude.file>../findbugs-exclude.xml</mavan.findbugsplugin.exclude.file>
         <mavan.checkstyle.suppression.file>../checkstyle-suppressions.xml</mavan.checkstyle.suppression.file>
@@ -102,7 +95,7 @@
             <extension>
                 <groupId>org.apache.maven.wagon</groupId>
                 <artifactId>wagon-ssh</artifactId>
-                <version>2.1</version>
+                <version>2.10</version>
             </extension>
         </extensions>
 
@@ -247,7 +240,7 @@
             <plugin><!-- Overridden from parent pom to exclude generated sources -->
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>findbugs-maven-plugin</artifactId>
-                <version>${maven.findbugsplugin.version}</version>
+                <version>3.0.5</version>
                 <configuration>
                     <effort>Max</effort>
                     <threshold>Medium</threshold>
@@ -330,7 +323,7 @@
                 <configuration>
                     <filesets>
                         <fileset>
-                            <directory>results-passthrough-4.0.0</directory>
+                            <directory>results-passthrough</directory>
                             <followSymlinks>false</followSymlinks>
                         </fileset>
                     </filesets>

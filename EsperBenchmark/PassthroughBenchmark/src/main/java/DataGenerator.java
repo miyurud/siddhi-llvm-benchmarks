@@ -1,4 +1,5 @@
 public class DataGenerator {
+
     float data;
     long currentTime;
 

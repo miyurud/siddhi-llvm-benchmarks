@@ -5,11 +5,24 @@
     <parent>
         <artifactId>Benchmark</artifactId>
         <groupId>Esper</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>PassthroughBenchmark</artifactId>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>7</source>
+                    <target>7</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
     <dependencies>
         <dependency>
@@ -35,13 +48,6 @@
             <artifactId>log4j</artifactId>
             <version>${log4j.version}</version>
         </dependency>
-
-        <dependency>
-            <groupId>org.hdrhistogram</groupId>
-            <artifactId>HdrHistogram</artifactId>
-            <version>${HdrHistogram.version}</version>
-        </dependency>
-
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
@@ -52,7 +58,6 @@
     <properties>
         <espertech.version>8.1.0</espertech.version>
         <log4j.version>1.2.17</log4j.version>
-        <HdrHistogram.version>2.1.11</HdrHistogram.version>
         <slf4j.version>1.6.4</slf4j.version>
     </properties>
 </project>

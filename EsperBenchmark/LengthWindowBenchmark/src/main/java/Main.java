@@ -26,7 +26,7 @@ import org.apache.log4j.Logger;
 public class Main {
 
     private static final Logger log = Logger.getLogger(Main.class);
-    private static String logDir = "./PassthroughBenchmark/results";
+    private static String logDir = "./LengthWindowBenchmark/results";
     private static final int RECORD_WINDOW = 1000000; //This is the number of events to record.
     private static long eventCountTotal = 0;
     private static long eventCount = 0;
@@ -58,8 +58,8 @@ public class Main {
         EPCompiled epCompiled;
 
         try {
-            epCompiled = compiler.compile("@name('my-statement') select data, currentTime from DataGenerator",
-                    compilerArguments);
+            epCompiled = compiler.compile("@name('my-statement') select data, currentTime from " +
+                    "DataGenerator.win:length(10)", compilerArguments);
         } catch (EPCompileException e) {
             throw new RuntimeException(e);
         }
@@ -75,7 +75,7 @@ public class Main {
 
             outputFileTimeStamp = System.currentTimeMillis();
             fstream = new OutputStreamWriter(new FileOutputStream(new File(logDir +
-                    "/esper-passthrough-results-" + (outputFileTimeStamp) + ".csv").getAbsoluteFile()),
+                    "/esper-lengthwindow-results-" + (outputFileTimeStamp) + ".csv").getAbsoluteFile()),
                     StandardCharsets.UTF_8);
 
         } catch (IOException e) {

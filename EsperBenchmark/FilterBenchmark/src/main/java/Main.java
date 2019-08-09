@@ -1,3 +1,16 @@
+/**
+ Copyright 2019 Siddhi-LLVM Team
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ http://www.apache.org/licenses/LICENSE-2.0
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ */
+
 import com.espertech.esper.common.client.EPCompiled;
 import com.espertech.esper.common.client.EventBean;
 import com.espertech.esper.common.client.configuration.Configuration;
@@ -23,9 +36,9 @@ import java.util.Random;
 import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.Logger;
 
-public class Main {
+public class Benchmark {
 
-    private static final Logger log = Logger.getLogger(Main.class);
+    private static final Logger log = Logger.getLogger(Benchmark.class);
     private static String logDir = "./FilterBenchmark/results";
     private static final int RECORD_WINDOW = 1000000; //This is the number of events to record.
     private static long eventCountTotal = 0;

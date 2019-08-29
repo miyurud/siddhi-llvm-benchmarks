@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="stream_processor"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stream_processor">
+				<Option output="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/cmake-build-debug/stream_processor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/."/>
+					<Add directory="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/math_logic"/>
+					<Add directory="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/temp"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/cmake-build-debug/Makefile&quot;  VERBOSE=1 stream_processor"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stream_processor/fast">
+				<Option output="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/cmake-build-debug/stream_processor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/."/>
+					<Add directory="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/math_logic"/>
+					<Add directory="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/temp"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/cmake-build-debug/Makefile&quot;  VERBOSE=1 stream_processor/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/BenchmarkTest.cpp">
+			<Option target="stream_processor"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/BenchmarkTest.h">
+			<Option target="stream_processor"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/Buffer.h">
+			<Option target="stream_processor"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/BufferContainer.cpp">
+			<Option target="stream_processor"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/BufferContainer.h">
+			<Option target="stream_processor"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/BufferLocker.cpp">
+			<Option target="stream_processor"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/BufferLocker.h">
+			<Option target="stream_processor"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/DetailContainer.cpp">
+			<Option target="stream_processor"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/DetailContainer.h">
+			<Option target="stream_processor"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/Executor.cpp">
+			<Option target="stream_processor"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/Executor.h">
+			<Option target="stream_processor"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/ExecutorCreator.cpp">
+			<Option target="stream_processor"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/ExecutorCreator.h">
+			<Option target="stream_processor"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/InputOutputMapper.h">
+			<Option target="stream_processor"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/LogicExecution.h">
+			<Option target="stream_processor"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/Main.cpp">
+			<Option target="stream_processor"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/OutputEmitter.cpp">
+			<Option target="stream_processor"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/OutputEmitter.h">
+			<Option target="stream_processor"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/PerformanceMonitor.cpp">
+			<Option target="stream_processor"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/PerformanceMonitor.h">
+			<Option target="stream_processor"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/ProcessedThreadHandler.cpp">
+			<Option target="stream_processor"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/ProcessedThreadHandler.h">
+			<Option target="stream_processor"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/WindowBufferContainer.cpp">
+			<Option target="stream_processor"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/WindowBufferContainer.h">
+			<Option target="stream_processor"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/common.h">
+			<Option target="stream_processor"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/math_logic/Average.cpp">
+			<Option target="stream_processor"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/math_logic/Average.h">
+			<Option target="stream_processor"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/math_logic/Sum.cpp">
+			<Option target="stream_processor"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/math_logic/Sum.h">
+			<Option target="stream_processor"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/temp/Consumer.cpp">
+			<Option target="stream_processor"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/temp/Consumer.h">
+			<Option target="stream_processor"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/temp/Producer.cpp">
+			<Option target="stream_processor"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/temp/Producer.h">
+			<Option target="stream_processor"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/AsyncBuffer/PassthroughBenchmark/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

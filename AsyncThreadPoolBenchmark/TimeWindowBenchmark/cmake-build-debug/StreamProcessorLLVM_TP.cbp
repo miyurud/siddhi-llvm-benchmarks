@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="StreamProcessorLLVM_TP"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StreamProcessorLLVM_TP">
+				<Option output="/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/cmake-build-debug/StreamProcessorLLVM_TP" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/cmake-build-debug/Makefile&quot;  VERBOSE=1 StreamProcessorLLVM_TP"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StreamProcessorLLVM_TP/fast">
+				<Option output="/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/cmake-build-debug/StreamProcessorLLVM_TP" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/cmake-build-debug/Makefile&quot;  VERBOSE=1 StreamProcessorLLVM_TP/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/Benchmark.cpp">
+			<Option target="StreamProcessorLLVM_TP"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/Benchmark.h">
+			<Option target="StreamProcessorLLVM_TP"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/Buffer.cpp">
+			<Option target="StreamProcessorLLVM_TP"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/Buffer.h">
+			<Option target="StreamProcessorLLVM_TP"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/ConfigParams.cpp">
+			<Option target="StreamProcessorLLVM_TP"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/ConfigParams.h">
+			<Option target="StreamProcessorLLVM_TP"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/Data.cpp">
+			<Option target="StreamProcessorLLVM_TP"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/Data.h">
+			<Option target="StreamProcessorLLVM_TP"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/InputHandler.cpp">
+			<Option target="StreamProcessorLLVM_TP"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/InputHandler.h">
+			<Option target="StreamProcessorLLVM_TP"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/LengthWindow.cpp">
+			<Option target="StreamProcessorLLVM_TP"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/LengthWindow.h">
+			<Option target="StreamProcessorLLVM_TP"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/OutputEmitter.cpp">
+			<Option target="StreamProcessorLLVM_TP"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/OutputEmitter.h">
+			<Option target="StreamProcessorLLVM_TP"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/Processor.cpp">
+			<Option target="StreamProcessorLLVM_TP"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/Processor.h">
+			<Option target="StreamProcessorLLVM_TP"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/StreamProcessor.cpp">
+			<Option target="StreamProcessorLLVM_TP"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/StreamProcessor.h">
+			<Option target="StreamProcessorLLVM_TP"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/ThreadPool.cpp">
+			<Option target="StreamProcessorLLVM_TP"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/ThreadPool.h">
+			<Option target="StreamProcessorLLVM_TP"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/TimeWindow.cpp">
+			<Option target="StreamProcessorLLVM_TP"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/TimeWindow.h">
+			<Option target="StreamProcessorLLVM_TP"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/Window.cpp">
+			<Option target="StreamProcessorLLVM_TP"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/Window.h">
+			<Option target="StreamProcessorLLVM_TP"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/common.h">
+			<Option target="StreamProcessorLLVM_TP"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/functions/Sum.cpp">
+			<Option target="StreamProcessorLLVM_TP"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/functions/Sum.h">
+			<Option target="StreamProcessorLLVM_TP"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/main.cpp">
+			<Option target="StreamProcessorLLVM_TP"/>
+		</Unit>
+		<Unit filename="/home/braveen79/Desktop/Benchmark/Async-ThreadPool/threadpool/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
